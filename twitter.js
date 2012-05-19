@@ -35,4 +35,8 @@ var getNode = function(data1, callback) {
 
  getNode(data1, function(body) {
  console.log('JSON: ' +body);
+ console.log('completed_in: ' +body.completed_in);
+ console.log('max_id: ' +body.max_id);
+ console.log('max_id_str: ' +body.max_id_str);
+ console.log('query: ' +body.query);
  });
